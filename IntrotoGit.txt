@@ -10,3 +10,6 @@ Create a Local repository:
 7) Push these changes to GitHub repository uding the push command "  git push -u General master" 
 --
 8) To push the modifications on a existing file, repeat add, commit and push
+--
+9) To get the latest files from Git
+	 "git pull General master"
