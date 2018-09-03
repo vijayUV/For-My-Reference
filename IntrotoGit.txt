@@ -1,0 +1,5 @@
+Create a Local repository:
+
+1) Open Git Bash
+2) navigate to the folder using "cd" command
+3) Once we are in the folder we want to convert as Git repository, type the command "git init"
