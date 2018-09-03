@@ -8,3 +8,5 @@ Create a Local repository:
 6) Create a remote to the repository on github and give it an alias name
 	"git remote add General https://github.com/vijayUV/General.git"
 6) Push these changes to GitHub repository uding the push command "  git push -u General master" 
+--
+7) To push the modifications on a existing file, repeat add, commit and push
