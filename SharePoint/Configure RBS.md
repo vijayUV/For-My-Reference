@@ -14,7 +14,7 @@
 
 ·         Test the RBS installation
 
-####Before we begin the operations, we need to consider the following as prerequisites to perform this action
+#### Before we begin the operations, we need to consider the following as prerequisites to perform this action
 
 ·         The user account to perform these steps must be a member of Administrators Group
 
