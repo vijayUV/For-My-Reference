@@ -22,3 +22,7 @@ https://www.veeam.com/microsoft-sharepoint-recovery-explorer.html
 ## Managed Accounts configuration
 
 https://blogs.msdn.microsoft.com/ahmedamin/2017/10/01/change-sharepoint-service-account/
+
+## Understanding Server roles in SharePoint
+https://www.c-sharpcorner.com/UploadFile/Roji.Joy/understanding-server-roles-in-sharepoint-2013/
+
