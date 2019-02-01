@@ -21,7 +21,7 @@ app.controller("currentusercontroller", function ($scope, $http, $filter) {
     }
     $scope.getInDirections = function (usrName) {
         $http({
-            url: "/_api/web/lists/getByTitle('Direction')/items/?$filter=AssignedMe eq " + usrName,
+            url: "/_api/web/lists/getByTitle('ListName')/items/?$filter=AssignedMe eq " + usrName,
             method: "GET",
             headers: { "Accept": "application/json;odata=verbose" }
         }).then(function (result) {
@@ -71,7 +71,7 @@ app.controller("currentusercontroller", function ($scope, $http, $filter) {
 
     $scope.getOutDirections = function (usrID) {
         $http({
-            url: "/_api/web/lists/getByTitle('Direction')/items/?$filter=AuthorId eq " + usrID,
+            url: "/_api/web/lists/getByTitle('ListName')/items/?$filter=AuthorId eq " + usrID,
             method: "GET",
             headers: { "Accept": "application/json;odata=verbose" }
         }).then(function (result) {
