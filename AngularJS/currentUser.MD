@@ -1,3 +1,4 @@
+```html
 var app = angular.module("myapp", []);
 app.controller("currentusercontroller", function ($scope, $http, $filter) {
     $scope.getUsers = function () {
@@ -107,6 +108,6 @@ app.controller("currentusercontroller", function ($scope, $http, $filter) {
     }
 });
 
-
+```
 
 
