@@ -18,20 +18,20 @@ This is an issue with the “HashTags” site column on the root sitecollection 
 -	Go to our root site collection where we have the news feed issue, navigate to site columns on the site settings page.
 -	We need to delete the “HashTags” column. ( you can use the following powershell)
 
-` $w2=get-spweb Get-SPWeb https:// your root site collection with issue
+``` $w2=get-spweb Get-SPWeb https:// your root site collection with issue
 $w2.fields.Delete("HashTags")   
-$w2.Update()  `
+$w2.Update()  ```
 
 Now we shall add the field from our new healthy site collection to the root site using AddFieldAsXml method
 
-`
+```
 $workingsite = Get-SPWeb https:// Your New healthy root sitecollection   	    
 $fieldId=$workingsite.Fields["HashTags"]        
 $fieldIdschema=$ fieldId.SchemaXml    	    
 $errorsite = Get-SPWeb https:// Your Problamatic root site collection    
 $newfld=$errorsite.Fields.AddFieldAsXml($fldschema)  
 
-`
+```
 
 You may receive a warning regarding the version if you run this multiple time.. you can ignore this warning.
 
