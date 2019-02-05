@@ -1,4 +1,4 @@
-# Fix To: "We've hit a Snag" SharePoint 2013 Newsfeed Error
+# Fix To: "We've hit a Snag" SharePoint 2013/2016 Newsfeed Error
 ## Who should try this solution
 ### There are several reasons for this error but this is one pain in the Ass
 #### Before you proceed with this solution, make sure that your issue falls in this category,
