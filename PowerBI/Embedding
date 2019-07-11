@@ -1,0 +1,3 @@
+To embed a PowerBI report on a website and avoid showing all the ribbion controls, add the folloing piece to the report url,
+
+"?rs:embed=true"
