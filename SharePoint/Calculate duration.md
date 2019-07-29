@@ -40,6 +40,3 @@
 ###  08:07
 
 
-
-
-=CONCATENATE(INT(SUM(SUM(LEFT(OutTime,2)-LEFT(InTime,2))*60,MID(OutTime,4,2)-MID(InTime,4,2))/60),":",MOD(SUM(SUM(LEFT(OutTime,2)-LEFT(InTime,2))*60,MID(OutTime,4,2)-MID(InTime,4,2)),60))
