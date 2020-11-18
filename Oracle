@@ -1,0 +1,29 @@
+# Extract csv from Oracle 8 using sql+Plus
+set echo     off
+set verify   off
+set colsep ,
+set headsep off
+set pagesize 0
+set trimspool on
+set linesize 200
+set pagesize 50000
+
+spool c:\bsp.csv
+
+
+prompt
+
+SELECT
+Columns
+FROM Table_Name
+--WHERE ROWNUM <= 10;
+
+prompt
+
+clear columns
+clear breaks
+
+set heading  on
+set feedback on
+set echo     off
+spool off
